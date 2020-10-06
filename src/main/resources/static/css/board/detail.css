@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url("../common.css");
+
+/* /////////////////////////////////////////// */
+/* //////board/write.css/////////////////////////// */
+/* /////////////////////////////////////////// */
+
+#title-img>div{
+	min-height: 197px;
+	background-image: url("/images/header_bg_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 1920px auto;
+	background-position: 50% 0;
+	background-color: #000;
+}
+
+#page-tit p{
+	font-size: 20px;
+	font-weight: 700;
+	padding: 40px 0;
+}
+#board{
+	margin-bottom: 40px;
+}
+#board .wrap .board-detail .subject{
+	font-size: 26px;
+	font-weight: 700;
+}
+#board .wrap .board-detail .info{
+	font-size: 14px;
+	border-bottom: 1px solid #eaecef;
+	padding-bottom: 30px;
+	color: #8c919a;
+}
+#board .wrap .board-detail .info .pipe::after {
+	border-color: #eaecef;
+	padding: 0 0.5em;
+	height: 10px;
+}
+#board .wrap .board-detail .info .writer{
+	color: #494949;
+}
+#board .wrap .board-detail .content{
+	min-height: 250px;
+	padding: 35px 0; 
+}
+
+#reply .write textarea {
+	padding: 0.4em;
+}
+#reply{
+	margin-bottom: 40px;
+}
+#reply .view ul{
+	padding: 1em;
+	border-bottom: 1px solid #eee;
+}
+#reply .view ul li.list-item1{
+	font-size: 12px;
+	color: #000;
+}
+#reply .view ul li.list-item2{
+	font-size: 13px;
+	color: #999;
+}
+#reply .view ul li.list-item3{
+	font-size: 15px;
+	color: #222;
+	margin-top: 0.5em;
+}
+#reply .view ul li.list-item3 .re-delete{
+	margin-left: 20px;
+	color: #999;
+	font-size: 10px;	
+
+}
+.reset-textarea{
+	background: none;
+	border: none;
+	resize: none;
+	outline: none;
+}
+
+
+
